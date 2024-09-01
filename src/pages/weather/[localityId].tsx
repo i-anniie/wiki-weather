@@ -190,11 +190,6 @@ const WeatherPage: React.FC<WeatherPageProps> = ({ initialWeatherData }) => {
   const apiKey = process.env.NEXT_PUBLIC_API_KEY || "";
 
   useEffect(() => {
-    if (!initialWeatherDataFromRedux) {
-      router.push("/");
-      return;
-    }
-
     const fetchWeatherData = async () => {
       if (!localityId || weatherData) return;
 
