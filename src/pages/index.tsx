@@ -1,8 +1,17 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import { SearchBar, SuggestionSection } from "@/components/common";
+import PublicLayout from "@/layouts";
 
 export default function Home() {
-  return <section>main page</section>;
+
+  return (
+    <PublicLayout>
+      <section className="main-container h-full w-full flex items-center justify-center">
+      <div className="flex flex-col items-center gap-2 w-full">
+        <SearchBar />
+        <SuggestionSection />
+      </div>
+    </section>
+    </PublicLayout>
+  );
 }
