@@ -22,8 +22,8 @@ const SearchBar: React.FC = () => {
     dispatch(setQuery(e.target.value));
   };
 
-  const handleSuggestionClick = (localityId: string, localityName: string) => {
-    dispatch(selectLocality({ localityId, localityName }));
+  const handleSuggestionClick = (localityId: string, localityName: string, cityName: string) => {
+    dispatch(selectLocality({ localityId, localityName, cityName }));
     dispatch(fetchWeatherData({ localityId, apiKey }));
     push(`/weather/${localityId}`);
   };
@@ -80,11 +80,12 @@ const SearchBar: React.FC = () => {
               onClick={() =>
                 handleSuggestionClick(
                   suggestion.localityId,
-                  suggestion.localityName
+                  suggestion.localityName,
+                  suggestion.cityName
                 )
               }
             >
-              {suggestion.localityName}
+              {suggestion.localityName}, {suggestion.cityName}
             </li>
           ))}
         </ul>

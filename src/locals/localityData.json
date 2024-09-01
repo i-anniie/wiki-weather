@@ -544,6 +544,1701 @@
       "cityName": "Delhi NCR",
       "localityName": "Sector 50",
       "localityId": "ZWL003444"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Dilshad Garden",
+      "localityId": "ZWL008293"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Sector 29, Gurgaon",
+      "localityId": "ZWL007308"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "SUSHANT LOK 1",
+      "localityId": "ZWL008219"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "SAHIBABAD",
+      "localityId": "ZWL006234"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Sector 45 (Noida)",
+      "localityId": "ZWL007666"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Sector 84",
+      "localityId": "ZWL002490"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Sector 7, Gurgaon",
+      "localityId": "ZWL007138"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Sector 27",
+      "localityId": "ZWL009706"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Hauz Khas",
+      "localityId": "ZWL001267"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Jangpura",
+      "localityId": "ZWL003552"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Sector 52, Gurgaon",
+      "localityId": "ZWL008401"
+    },
+    {
+      "cityName": "Delhi NCR",
+      "localityName": "Vaishali, Ghaziabad",
+      "localityId": "ZWL001758"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Shibpur",
+      "localityId": "ZWL003128"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Kalyani 1, Kolkata",
+      "localityId": "ZWL004322"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Bansdroni",
+      "localityId": "ZWL002495"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Bow Barracks",
+      "localityId": "ZWL009257"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Baranagar, Kolkata",
+      "localityId": "ZWL005435"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Sonarpur, Kolkata",
+      "localityId": "ZWL007041"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Ballygunge",
+      "localityId": "ZWL002918"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Sinthi, Kolkata",
+      "localityId": "ZWL003388"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Salt Lake 2",
+      "localityId": "ZWL008806"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Alipore",
+      "localityId": "ZWL008635"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Baguihati",
+      "localityId": "ZWL002312"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "South Dum Dum",
+      "localityId": "ZWL001499"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Purba Barisha",
+      "localityId": "ZWL003315"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Jadavpur",
+      "localityId": "ZWL003794"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Tollygunge",
+      "localityId": "ZWL006574"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Shyam Bazar",
+      "localityId": "ZWL004138"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Behala",
+      "localityId": "ZWL009022"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Chandannagar, Kolkata",
+      "localityId": "ZWL003271"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Barrackpore",
+      "localityId": "ZWL003951"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "East Kolkata Township",
+      "localityId": "ZWL003915"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Bhowanipore",
+      "localityId": "ZWL006750"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Elgin",
+      "localityId": "ZWL008828"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Howrah",
+      "localityId": "ZWL008426"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "New Alipore",
+      "localityId": "ZWL007323"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Barasat",
+      "localityId": "ZWL006266"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "New Town (kolkata)",
+      "localityId": "ZWL008393"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Uttarpara",
+      "localityId": "ZWL007966"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Santoshpur",
+      "localityId": "ZWL001039"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Liluah",
+      "localityId": "ZWL003882"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Rajarhat",
+      "localityId": "ZWL004925"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Park Street area",
+      "localityId": "ZWL005244"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Baghajatin Colony",
+      "localityId": "ZWL003687"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Shrirampur",
+      "localityId": "ZWL008120"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Chhota Jagulia",
+      "localityId": "ZWL007514"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Dum Dum",
+      "localityId": "ZWL003935"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Kestopur",
+      "localityId": "ZWL002931"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Sodepur",
+      "localityId": "ZWL006521"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Nimta",
+      "localityId": "ZWL005558"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Shapoorji",
+      "localityId": "ZWL005174"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Barabazar Market",
+      "localityId": "ZWL002488"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Salt Lake 1",
+      "localityId": "ZWL007934"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Tangra",
+      "localityId": "ZWL001584"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Gariahat",
+      "localityId": "ZWL005429"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Santragachi",
+      "localityId": "ZWL005121"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Garia",
+      "localityId": "ZWL007830"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Chinsurah, Kolkata",
+      "localityId": "ZWL008991"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Kankurgachi",
+      "localityId": "ZWL009194"
+    },
+    {
+      "cityName": "Kolkata",
+      "localityName": "Kasba",
+      "localityId": "ZWL004722"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Mira Road East",
+      "localityId": "ZWL006536"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Kandivali West",
+      "localityId": "ZWL004934"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Boisar, Mumbai",
+      "localityId": "ZWL004821"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Bhiwandi",
+      "localityId": "ZWL007249"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Panvel",
+      "localityId": "ZWL001164"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Kopar Khairane (Navi Mumbai)",
+      "localityId": "ZWL009537"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Vashi",
+      "localityId": "ZWL007275"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Titwala, Mumbai",
+      "localityId": "ZWL002556"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Kandivali East",
+      "localityId": "ZWL006937"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Nalasopara",
+      "localityId": "ZWL008636"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Lower Parel",
+      "localityId": "ZWL003995"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Goregaon East",
+      "localityId": "ZWL006938"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Santacruz East",
+      "localityId": "ZWL008550"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Ghatkopar East, Mumbai",
+      "localityId": "ZWL004494"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Palava",
+      "localityId": "ZWL003708"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Malad West",
+      "localityId": "ZWL008711"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Borivali East",
+      "localityId": "ZWL005991"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Kalyan,West,Mumbai",
+      "localityId": "ZWL002865"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Santacruz West",
+      "localityId": "ZWL004749"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Badlapur, Mumbai",
+      "localityId": "ZWL001274"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Ambernath",
+      "localityId": "ZWL007699"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Marine lines",
+      "localityId": "ZWL001764"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Mulund West",
+      "localityId": "ZWL002921"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Airoli",
+      "localityId": "ZWL001410"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Kharghar (Navi Mumbai)",
+      "localityId": "ZWL009757"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Ulhasnagar (Mumbai)",
+      "localityId": "ZWL002059"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Ghatkopar West, Mumbai",
+      "localityId": "ZWL001058"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Bandra West",
+      "localityId": "ZWL006995"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Dadar West",
+      "localityId": "ZWL004692"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Andheri West",
+      "localityId": "ZWL007667"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Vile Parle West",
+      "localityId": "ZWL009338"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Byculla",
+      "localityId": "ZWL009167"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Vasai",
+      "localityId": "ZWL006032"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Kalyan,East (Mumbai)",
+      "localityId": "ZWL007397"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Ulwe, Mumbai",
+      "localityId": "ZWL009360"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Fort",
+      "localityId": "ZWL002205"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Andheri East",
+      "localityId": "ZWL008975"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Chembur",
+      "localityId": "ZWL009252"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Palghar, Mumbai",
+      "localityId": "ZWL002558"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Mumbra, Mumbai",
+      "localityId": "ZWL002742"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Mulund East",
+      "localityId": "ZWL004971"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Shirdhon, Mumbai",
+      "localityId": "ZWL008348"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Virar",
+      "localityId": "ZWL001344"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Tardeo",
+      "localityId": "ZWL007606"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Bandra East",
+      "localityId": "ZWL005697"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Thane West",
+      "localityId": "ZWL005442"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Kurla West",
+      "localityId": "ZWL004189"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Goregaon West",
+      "localityId": "ZWL005000"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Hiranandani Estate",
+      "localityId": "ZWL002056"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Dombivli",
+      "localityId": "ZWL009826"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Bhandup West",
+      "localityId": "ZWL007889"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Kamothe",
+      "localityId": "ZWL008977"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Powai, Mumbai",
+      "localityId": "ZWL006622"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Naupada",
+      "localityId": "ZWL002074"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Bhayandar West",
+      "localityId": "ZWL008874"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Vileparle East",
+      "localityId": "ZWL001334"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Sion",
+      "localityId": "ZWL008378"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Nerul (Navi Mumbai)",
+      "localityId": "ZWL007690"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Dahisar West",
+      "localityId": "ZWL007706"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Colaba",
+      "localityId": "ZWL005320"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Mahim",
+      "localityId": "ZWL006544"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Wadala",
+      "localityId": "ZWL002686"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Borivali West",
+      "localityId": "ZWL001089"
+    },
+    {
+      "cityName": "Mumbai",
+      "localityName": "Palava Lakeshore,Mumbai",
+      "localityId": "ZWL008360"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Banashankari",
+      "localityId": "ZWL003467"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Rajarajeshwari Nagar",
+      "localityId": "ZWL004900"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "JP Nagar",
+      "localityId": "ZWL005530"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Mahadevapura",
+      "localityId": "ZWL007643"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Jalahalli",
+      "localityId": "ZWL003159"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "RT Nagar",
+      "localityId": "ZWL002736"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "KR Puram",
+      "localityId": "ZWL006369"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Electronic City",
+      "localityId": "ZWL006274"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Vijayanagar",
+      "localityId": "ZWL005375"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Marathahalli",
+      "localityId": "ZWL008600"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Sarjapur road",
+      "localityId": "ZWL002292"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Brookefields",
+      "localityId": "ZWL004341"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Whitefield",
+      "localityId": "ZWL007633"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Nagavara",
+      "localityId": "ZWL009212"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "New BEL Road",
+      "localityId": "ZWL007628"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Koramangala",
+      "localityId": "ZWL001156"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Bannerghatta Road, Bangalore",
+      "localityId": "ZWL004924"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Aavalahalli",
+      "localityId": "ZWL009229"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "BIAL Airport Road",
+      "localityId": "ZWL005576"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Yelahanka",
+      "localityId": "ZWL006658"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Kadugodi",
+      "localityId": "ZWL002882"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Kammanahalli",
+      "localityId": "ZWL006631"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "HSR Layout",
+      "localityId": "ZWL001196"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "BTM Layout",
+      "localityId": "ZWL006600"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Varthur",
+      "localityId": "ZWL006854"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Indiranagar",
+      "localityId": "ZWL001273"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Jayanagar",
+      "localityId": "ZWL008105"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Sahakaranagar",
+      "localityId": "ZWL005206"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Devanahalli, Bangalore",
+      "localityId": "ZWL008797"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "MG Road",
+      "localityId": "ZWL001962"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Rajajinagar",
+      "localityId": "ZWL006844"
+    },
+    {
+      "cityName": "Bengaluru",
+      "localityName": "Bellandur",
+      "localityId": "ZWL004164"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "NIGDI(Pune)",
+      "localityId": "ZWL007698"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Bibvewadi (Pune)",
+      "localityId": "ZWL005773"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Nanded-Nahre",
+      "localityId": "ZWL009577"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Bhosari (Pune)",
+      "localityId": "ZWL002253"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Camp Area",
+      "localityId": "ZWL003498"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Magarpatta",
+      "localityId": "ZWL004311"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Pimpri",
+      "localityId": "ZWL007801"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Yerwada",
+      "localityId": "ZWL008134"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Kalyani Nagar (Pune)",
+      "localityId": "ZWL009625"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Hadapsar",
+      "localityId": "ZWL007202"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Shivajinagar (Pune)",
+      "localityId": "ZWL008255"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Baner",
+      "localityId": "ZWL003986"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Deccan Gymkhana",
+      "localityId": "ZWL008371"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Pimple Saudagar",
+      "localityId": "ZWL002858"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Kothrud (Pune)",
+      "localityId": "ZWL004291"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Balewadi (Pune)",
+      "localityId": "ZWL008072"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Aundh",
+      "localityId": "ZWL002488"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Wakad",
+      "localityId": "ZWL009183"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Viman Nagar",
+      "localityId": "ZWL004153"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Kharadi",
+      "localityId": "ZWL008305"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Hinjawadi (Pune)",
+      "localityId": "ZWL008057"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Dhanori",
+      "localityId": "ZWL004666"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Warje",
+      "localityId": "ZWL008016"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Sinhgad Road",
+      "localityId": "ZWL003430"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Pimple Nilakh",
+      "localityId": "ZWL003897"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Chinchwad",
+      "localityId": "ZWL007999"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Vishrantwadi",
+      "localityId": "ZWL004144"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Pashan",
+      "localityId": "ZWL005379"
+    },
+    {
+      "cityName": "Pune",
+      "localityName": "Katraj",
+      "localityId": "ZWL006635"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gachibowli",
+      "localityId": "ZWL006956"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Himayath Nagar",
+      "localityId": "ZWL003739"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Manikonda",
+      "localityId": "ZWL003349"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "SR Nagar",
+      "localityId": "ZWL002957"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nallagandla",
+      "localityId": "ZWL007124"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Banjara Hills",
+      "localityId": "ZWL003750"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhapur",
+      "localityId": "ZWL004724"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Masab Tank",
+      "localityId": "ZWL004371"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kondapur",
+      "localityId": "ZWL006920"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Khajaguda",
+      "localityId": "ZWL005075"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Habsiguda",
+      "localityId": "ZWL004705"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kothapet",
+      "localityId": "ZWL005219"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Chandanagar",
+      "localityId": "ZWL003331"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Miyapur",
+      "localityId": "ZWL007766"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Abids",
+      "localityId": "ZWL006368"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "LB Nagar",
+      "localityId": "ZWL007487"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Secunderabad",
+      "localityId": "ZWL008742"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Pragathi Nagar",
+      "localityId": "ZWL009222"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Mehdipatnam",
+      "localityId": "ZWL002741"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "RTC X Roads",
+      "localityId": "ZWL005367"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Attapur",
+      "localityId": "ZWL008712"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Begumpet",
+      "localityId": "ZWL004159"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gajularamaram",
+      "localityId": "ZWL004197"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhura Nagar",
+      "localityId": "ZWL005975"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Tolichowki",
+      "localityId": "ZWL004203"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Jubilee Hills",
+      "localityId": "ZWL003202"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Bachupally",
+      "localityId": "ZWL002611"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Dilsukhnagar",
+      "localityId": "ZWL004678"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Uppal",
+      "localityId": "ZWL006299"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Jeedimetla",
+      "localityId": "ZWL005522"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Santoshnagar",
+      "localityId": "ZWL002364"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kukatpally",
+      "localityId": "ZWL004756"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Ameerpet",
+      "localityId": "ZWL008720"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Somajiguda",
+      "localityId": "ZWL007066"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Shaikpet",
+      "localityId": "ZWL006669"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kothaguda",
+      "localityId": "ZWL007162"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Erragadda",
+      "localityId": "ZWL006717"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gaddiannaram",
+      "localityId": "ZWL002297"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gowlipura",
+      "localityId": "ZWL002712"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kismatpur",
+      "localityId": "ZWL003340"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nizampet",
+      "localityId": "ZWL006731"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Manchirevula",
+      "localityId": "ZWL003948"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nanakramguda",
+      "localityId": "ZWL008167"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Boduppal",
+      "localityId": "ZWL009502"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Malkajgiri",
+      "localityId": "ZWL006673"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Komapally",
+      "localityId": "ZWL002629"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nagole",
+      "localityId": "ZWL004468"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Shamshabad",
+      "localityId": "ZWL002780"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Narsingi",
+      "localityId": "ZWL007721"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Moosapet",
+      "localityId": "ZWL005543"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Shivarampalli",
+      "localityId": "ZWL008706"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Chintal",
+      "localityId": "ZWL008283"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "LB Nagar",
+      "localityId": "ZWL008837"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Champapet",
+      "localityId": "ZWL002046"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nacharam",
+      "localityId": "ZWL007719"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Qutubullapur",
+      "localityId": "ZWL005138"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Khairatabad",
+      "localityId": "ZWL003869"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Balanagar",
+      "localityId": "ZWL009693"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Masab Tank",
+      "localityId": "ZWL007283"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Padmarao Nagar",
+      "localityId": "ZWL002702"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Chikkadpally",
+      "localityId": "ZWL008510"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Amberpet",
+      "localityId": "ZWL003422"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kattedan",
+      "localityId": "ZWL007877"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Peeramcheru",
+      "localityId": "ZWL009394"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Dammaiguda",
+      "localityId": "ZWL006915"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Banjara Hills",
+      "localityId": "ZWL006999"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Film Nagar",
+      "localityId": "ZWL002670"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Yousufguda",
+      "localityId": "ZWL002600"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Alwal",
+      "localityId": "ZWL008859"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kompally",
+      "localityId": "ZWL008891"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nagaram",
+      "localityId": "ZWL003344"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Medchal",
+      "localityId": "ZWL009627"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Panjagutta",
+      "localityId": "ZWL008677"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhapur",
+      "localityId": "ZWL002036"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Narsingi",
+      "localityId": "ZWL004805"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Anandbagh",
+      "localityId": "ZWL006707"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Alkapoor Township",
+      "localityId": "ZWL006793"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Chandanagar",
+      "localityId": "ZWL002743"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gopanpally",
+      "localityId": "ZWL007811"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Sainikpuri",
+      "localityId": "ZWL002090"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Borabanda",
+      "localityId": "ZWL002773"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nizampet",
+      "localityId": "ZWL004424"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "LB Nagar",
+      "localityId": "ZWL004703"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Beeramguda",
+      "localityId": "ZWL009550"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Qutubullapur",
+      "localityId": "ZWL002343"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Bowenpally",
+      "localityId": "ZWL008113"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Badangpet",
+      "localityId": "ZWL009173"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nagole",
+      "localityId": "ZWL005717"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nallakunta",
+      "localityId": "ZWL003104"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Bhoiguda",
+      "localityId": "ZWL005072"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Shamshabad",
+      "localityId": "ZWL002125"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Trimulgherry",
+      "localityId": "ZWL009273"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Safilguda",
+      "localityId": "ZWL002472"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Begumpet",
+      "localityId": "ZWL007132"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gandipet",
+      "localityId": "ZWL004300"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Patancheru",
+      "localityId": "ZWL002477"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Anandbagh",
+      "localityId": "ZWL005594"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Moti Nagar",
+      "localityId": "ZWL009563"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Puppalaguda",
+      "localityId": "ZWL009755"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "LB Nagar",
+      "localityId": "ZWL006155"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Langar Houz",
+      "localityId": "ZWL007688"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nagaram",
+      "localityId": "ZWL006933"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "LB Nagar",
+      "localityId": "ZWL003116"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Attapur",
+      "localityId": "ZWL006837"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Chandanagar",
+      "localityId": "ZWL008154"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "KPHB",
+      "localityId": "ZWL006569"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nagole",
+      "localityId": "ZWL003085"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kukatpally",
+      "localityId": "ZWL006321"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Alkapoor Township",
+      "localityId": "ZWL007168"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nizampet",
+      "localityId": "ZWL003170"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Suchitra Junction",
+      "localityId": "ZWL004187"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "KPHB",
+      "localityId": "ZWL009392"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Secunderabad",
+      "localityId": "ZWL009671"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kompally",
+      "localityId": "ZWL003827"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "LB Nagar",
+      "localityId": "ZWL003529"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Neredmet",
+      "localityId": "ZWL002079"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Pragathi Nagar",
+      "localityId": "ZWL005017"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "LB Nagar",
+      "localityId": "ZWL003010"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Sainikpuri",
+      "localityId": "ZWL009091"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gachibowli",
+      "localityId": "ZWL003748"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Manikonda",
+      "localityId": "ZWL005008"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Boduppal",
+      "localityId": "ZWL003024"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Khajaguda",
+      "localityId": "ZWL003826"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Malkajgiri",
+      "localityId": "ZWL003317"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Beeramguda",
+      "localityId": "ZWL009502"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nagole",
+      "localityId": "ZWL003824"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kondapur",
+      "localityId": "ZWL004382"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Miyapur",
+      "localityId": "ZWL006013"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gachibowli",
+      "localityId": "ZWL005802"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nizampet",
+      "localityId": "ZWL009075"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Bowenpally",
+      "localityId": "ZWL004273"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhapur",
+      "localityId": "ZWL006143"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kondapur",
+      "localityId": "ZWL005868"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Beeramguda",
+      "localityId": "ZWL002479"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nallagandla",
+      "localityId": "ZWL006914"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Bachupally",
+      "localityId": "ZWL004141"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhapur",
+      "localityId": "ZWL008317"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Jubilee Hills",
+      "localityId": "ZWL006762"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gachibowli",
+      "localityId": "ZWL005087"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kondapur",
+      "localityId": "ZWL002786"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhapur",
+      "localityId": "ZWL003539"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Miyapur",
+      "localityId": "ZWL003065"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Bachupally",
+      "localityId": "ZWL006718"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nizampet",
+      "localityId": "ZWL009620"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Gachibowli",
+      "localityId": "ZWL008564"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Nallagandla",
+      "localityId": "ZWL005548"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Bachupally",
+      "localityId": "ZWL005716"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhapur",
+      "localityId": "ZWL004915"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Bachupally",
+      "localityId": "ZWL008537"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhapur",
+      "localityId": "ZWL008945"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Jubilee Hills",
+      "localityId": "ZWL008671"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Kondapur",
+      "localityId": "ZWL003387"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Madhapur",
+      "localityId": "ZWL009593"
+    },
+    {
+      "cityName": "Hyderabad",
+      "localityName": "Jubilee Hills",
+      "localityId": "ZWL009473"
     }
   ]
 }
