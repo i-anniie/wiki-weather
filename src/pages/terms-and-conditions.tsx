@@ -1,6 +1,4 @@
 import React from "react";
-import Head from "next/head";
-import PublicLayout from "@/layouts";
 
 const TermsAndConditions = () => {
   return (

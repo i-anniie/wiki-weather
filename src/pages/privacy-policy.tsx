@@ -1,4 +1,3 @@
-import PublicLayout from "@/layouts";
 import React from "react";
 
 const PrivacyPolicy = () => {

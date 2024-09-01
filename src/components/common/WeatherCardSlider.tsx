@@ -132,8 +132,6 @@ const WeatherCardSlider: React.FC = () => {
             key={data.localityId}
             className="!flex items-center justify-center py-1 gap-1 rounded-md bg-gray-800/50"
           >
-            {/* <TbMapPin className="text-2xl" /> */}
-
             <div className="flex flex-col gap-1">
               <h2 className="">{data.localityName}</h2>
 
