@@ -21,7 +21,7 @@ const Navbar = () => {
       <section className="flex justify-center items-center py-2">
         <div className="main-container flex justify-between items-center">
           <div
-            className="flex group items-center gap-2 text-xl md:text-2xl font-semibold cursor-pointer hover:gap-3 common-transition hover:text-light-yellow"
+            className="w-1/3 flex group items-center gap-2 text-xl md:text-2xl font-semibold cursor-pointer hover:gap-3 common-transition hover:text-light-yellow"
             onClick={() => push("/")}
           >
             <motion.p
@@ -39,10 +39,10 @@ const Navbar = () => {
               Weather
             </motion.p>
           </div>
-          <div className="hidden md:block">
+          <div className="hidden md:block w-1/3">
             <WeatherCardSlider />
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex justify-end items-center gap-2 w-1/3">
             <ProfileInfo fullName="John Doe" />
           </div>
         </div>

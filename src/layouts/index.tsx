@@ -14,7 +14,7 @@ export default function PublicLayout({
   description,
   ogImage,
 }: Props) {
-  const bgImages = ["/heroSlider1.jpg", "/heroSlider3.jpg", "/heroSlider4.jpg"];
+  const bgImages = ["/heroImg02.webp", "/heroImg03.webp", "/heroImg04.webp"];
 
   const randomImage = bgImages[Math.floor(Math.random() * bgImages.length)];
 

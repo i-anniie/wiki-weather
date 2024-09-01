@@ -8,6 +8,7 @@ import localityData from "@/locals/localityData.json";
 interface Locality {
   localityId: string;
   localityName: string;
+  cityName: string;
 }
 
 const SuggestionSection: React.FC = () => {
@@ -26,8 +27,12 @@ const SuggestionSection: React.FC = () => {
     setSelectedSuggestions(randomizedLocalities);
   }, []);
 
-  const handleSuggestionClick = (localityId: string, localityName: string) => {
-    dispatch(selectLocality({ localityId, localityName }));
+  const handleSuggestionClick = (
+    localityId: string,
+    localityName: string,
+    cityName: string
+  ) => {
+    dispatch(selectLocality({ localityId, localityName, cityName }));
     dispatch(fetchWeatherData({ localityId, apiKey }));
     router.push(`/weather/${localityId}`);
   };
@@ -35,15 +40,19 @@ const SuggestionSection: React.FC = () => {
   return (
     <section className="w-full md:w-3/4 lg:w-1/2">
       <div className="grid grid-cols-2 md:grid-cols-3 gap-2 place-items-center">
-        {selectedSuggestions.map(({ localityId, localityName }: Locality) => (
-          <div
-            key={localityId}
-            className="cursor-pointer hover:underline w-fit"
-            onClick={() => handleSuggestionClick(localityId, localityName)}
-          >
-            {localityName}
-          </div>
-        ))}
+        {selectedSuggestions.map(
+          ({ localityId, localityName, cityName }: Locality) => (
+            <div
+              key={localityId}
+              className="cursor-pointer text-center hover:underline w-fit"
+              onClick={() =>
+                handleSuggestionClick(localityId, localityName, cityName)
+              }
+            >
+              {localityName}, {cityName}
+            </div>
+          )
+        )}
       </div>
     </section>
   );

@@ -130,7 +130,7 @@ const WeatherCardSlider: React.FC = () => {
         {weatherData1.map((data) => (
           <div
             key={data.localityId}
-            className="!flex items-center justify-center py-1 gap-1 rounded-md bg-gray-800/40"
+            className="!flex items-center justify-center py-1 gap-1 rounded-md bg-gray-800/50"
           >
             {/* <TbMapPin className="text-2xl" /> */}
 

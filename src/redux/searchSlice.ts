@@ -6,7 +6,11 @@ interface SearchState {
   query: string;
   suggestions: { localityId: string; localityName: string; cityName: string }[];
   loading: boolean;
-  selectedLocality?: { localityId: string; localityName: string };
+  selectedLocality?: {
+    localityId: string;
+    localityName: string;
+    cityName: string;
+  };
   weatherData?: any;
   error?: string;
 }
@@ -42,12 +46,6 @@ const searchSlice = createSlice({
   name: "search",
   initialState,
   reducers: {
-    // setQuery(state, action: PayloadAction<string>) {
-    //   state.query = action.payload;
-    //   state.suggestions = localities.filter((locality) =>
-    //     locality.localityName.toLowerCase().includes(state.query.toLowerCase())
-    //   );
-    // },
     setQuery(state, action: PayloadAction<string>) {
       state.query = action.payload;
       state.suggestions = localities
