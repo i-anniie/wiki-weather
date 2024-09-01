@@ -9,7 +9,7 @@ const Footer = () => {
           <p className="text-sm">
             ©{new Date().getFullYear()} Wiki Weather. All Rights Reserved.
           </p>
-          <div className="flex items-center gap-2 text-sm border-l pl-2 border-black">
+          <div className="flex items-center gap-2 text-sm md:border-l md:pl-2 border-black">
             <Link href="/privacy-policy">
               <h1 className="common-transition hover:underline">
                 Privacy Policy
