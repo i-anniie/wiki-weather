@@ -76,11 +76,6 @@ const SearchBar: React.FC = () => {
           </div>
         </div>
       </div>
-      {loading && (
-        <div className="absolute top-full p-2 bg-white border border-gray-300 rounded-b-3xl">
-          Loading...
-        </div>
-      )}
       {suggestions.length > 0 ? (
         <ul className="absolute top-full w-full md:w-3/4 lg:w-1/2 py-1 rounded-b-3xl bg-white/90 max-h-72 overflow-auto">
           {suggestions.map((suggestion) => (
