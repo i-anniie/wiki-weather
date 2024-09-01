@@ -8,10 +8,11 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { useRouter } from "next/router";
 import { AppDispatch, RootState } from "@/redux";
+import { IoMdClose } from "react-icons/io";
 
 const SearchBar: React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
-  const {push} = useRouter();
+  const { push } = useRouter();
   const { query, suggestions, loading } = useSelector(
     (state: RootState) => state.search
   );
@@ -24,38 +25,58 @@ const SearchBar: React.FC = () => {
   const handleSuggestionClick = (localityId: string, localityName: string) => {
     dispatch(selectLocality({ localityId, localityName }));
     dispatch(fetchWeatherData({ localityId, apiKey }));
-   push(`/weather/${localityId}`);
+    push(`/weather/${localityId}`);
   };
 
   useEffect(() => {
-    if (query.length < 3) {
+    if (query.length < 1) {
       dispatch(clearSuggestions());
     }
   }, [query, dispatch]);
 
   const shouldShowNoSuggestionsMessage =
-    query.length > 2 && suggestions.length === 0;
+    query.length > 1 && suggestions.length === 0;
+
+  const handleClear = () => {
+    dispatch(setQuery(""));
+    dispatch(clearSuggestions());
+  };
 
   return (
-    <div className="relative w-full flex items-center justify-center text-black">
+    <section className="relative w-full flex items-center justify-center text-black">
       <input
         type="text"
         value={query}
         onChange={handleInputChange}
-        className="w-1/2 p-2 rounded-full px-4 py-2"
+        className={`w-full md:w-3/4 lg:w-1/2 ${
+          shouldShowNoSuggestionsMessage || suggestions.length > 0
+            ? "rounded-t-3xl mb-0.5"
+            : "rounded-3xl"
+        } px-4 py-2 md:py-3 outline-none text-black bg-white/80 focus:bg-white/90`}
         placeholder="Search for a location..."
       />
+      <div className="flex items-center justify-end">
+        <div className="absolute mr-6">
+          <div className="w-fit flex items-center gap-2">
+            {query.length > 0 && (
+              <button className="" onClick={handleClear}>
+                <IoMdClose className="text-xl" />
+              </button>
+            )}
+          </div>
+        </div>
+      </div>
       {loading && (
-        <div className="absolute top-full mt-2 p-2 bg-white border border-gray-300 rounded-lg">
+        <div className="absolute top-full p-2 bg-white border border-gray-300 rounded-b-3xl">
           Loading...
         </div>
       )}
       {suggestions.length > 0 ? (
-        <ul className="absolute top-full mt-2 w-1/2 bg-white border border-gray-300 rounded-lg max-h-72 overflow-auto">
+        <ul className="absolute top-full w-full md:w-3/4 lg:w-1/2 py-1 rounded-b-3xl bg-white/90 max-h-72 overflow-auto">
           {suggestions.map((suggestion) => (
             <li
               key={suggestion.localityId}
-              className="p-2 hover:bg-gray-100 cursor-pointer"
+              className="common-transition py-2 px-4 hover:bg-white cursor-pointer"
               onClick={() =>
                 handleSuggestionClick(
                   suggestion.localityId,
@@ -68,11 +89,11 @@ const SearchBar: React.FC = () => {
           ))}
         </ul>
       ) : shouldShowNoSuggestionsMessage ? (
-        <div className="absolute top-full mt-2 p-2 w-full bg-white border border-gray-300 rounded-lg max-h-72 overflow-auto">
+        <div className="absolute top-full py-3 px-2 w-full md:w-3/4 lg:w-1/2  bg-white/90 border rounded-b-3xl max-h-72 overflow-auto">
           No suggestions available
         </div>
       ) : null}
-    </div>
+    </section>
   );
 };
 

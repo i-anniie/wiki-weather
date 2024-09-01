@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { useRouter } from "next/router";
 import { ProfileInfo, WeatherCardSlider } from "@/components/common";
@@ -21,7 +21,7 @@ const Navbar = () => {
       <section className="flex justify-center items-center py-2">
         <div className="main-container flex justify-between items-center">
           <div
-            className="flex group items-center gap-2 text-2xl font-semibold cursor-pointer hover:gap-3 common-transition hover:text-light-yellow"
+            className="flex group items-center gap-2 text-xl md:text-2xl font-semibold cursor-pointer hover:gap-3 common-transition hover:text-light-yellow"
             onClick={() => push("/")}
           >
             <motion.p
@@ -38,17 +38,10 @@ const Navbar = () => {
             >
               Weather
             </motion.p>
-            {/* <motion.p
-                initial={{ x: 60 }}
-                animate={!showDrawer ? { x: 0 } : { x: 30 }}
-                transition={{ duration: 0.5 }}
-              >
-                
-              </motion.p> */}
           </div>
-          {/* <div>
+          <div className="hidden md:block">
             <WeatherCardSlider />
-          </div> */}
+          </div>
           <div className="flex items-center gap-2">
             <ProfileInfo fullName="John Doe" />
           </div>

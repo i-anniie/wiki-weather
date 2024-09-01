@@ -34,6 +34,7 @@ const WeatherPage: React.FC<WeatherPageProps> = ({ initialWeatherData }) => {
             },
           }
         );
+        console.log(response?.data?.locality_weather_data);
         setWeatherData(response?.data?.locality_weather_data);
       } catch (error) {
         setError("Failed to fetch weather data");
@@ -59,48 +60,55 @@ const WeatherPage: React.FC<WeatherPageProps> = ({ initialWeatherData }) => {
           </h1>
           <div className="bg-white shadow-md rounded-lg p-6">
             <h2 className="text-xl font-semibold mb-2 bg-red-500">
-              {selectedLocality?.localityName || weatherData?.locality_name}
+              {selectedLocality?.localityName}
             </h2>
             <div className="flex items-center space-x-4">
               <div>
                 <p className="text-4xl font-bold">
-                  {weatherData?.temperature
+                  {weatherData?.temperature !== null &&
+                  weatherData?.temperature !== undefined
                     ? `${weatherData.temperature}°C`
                     : "Data not available"}
                 </p>
                 <p className="text-lg text-gray-600">
                   Humidity:{" "}
-                  {weatherData?.humidity
+                  {weatherData?.humidity !== null &&
+                  weatherData?.humidity !== undefined
                     ? `${weatherData.humidity}%`
                     : "Data not available"}
                 </p>
                 <p className="text-lg text-gray-600">
                   Rain Accumulation:{" "}
-                  {weatherData?.rain_accumulation
+                  {weatherData?.rain_accumulation !== null &&
+                  weatherData?.rain_accumulation !== undefined
                     ? `${weatherData.rain_accumulation} mm`
                     : "Data not available"}
                 </p>
                 <p className="text-lg text-gray-600">
                   Rain Intensity:{" "}
-                  {weatherData?.rain_intensity
+                  {weatherData?.rain_intensity !== null &&
+                  weatherData?.rain_intensity !== undefined
                     ? `${weatherData.rain_intensity} mm/h`
                     : "Data not available"}
                 </p>
                 <p className="text-lg text-gray-600">
                   Wind Direction:{" "}
-                  {weatherData?.wind_direction
+                  {weatherData?.wind_direction !== null &&
+                  weatherData?.wind_direction !== undefined
                     ? weatherData.wind_direction
                     : "Data not available"}
                 </p>
                 <p className="text-lg text-gray-600">
                   Wind Speed:{" "}
-                  {weatherData?.wind_speed
+                  {weatherData?.wind_speed !== null &&
+                  weatherData?.wind_speed !== undefined
                     ? `${weatherData.wind_speed} km/h`
                     : "Data not available"}
                 </p>
               </div>
             </div>
           </div>
+
           <div className="mt-4">
             <a href="/" className="text-blue-500 hover:underline">
               Back to search

@@ -1,56 +1,3 @@
-// import { useRouter } from "next/router";
-// import React from "react";
-// import { useDispatch } from "react-redux";
-// import { AppDispatch } from "@/redux";
-// import { fetchWeatherData, selectLocality } from "@/redux/searchSlice";
-// import localityData from "@/locals/localityData.json";
-
-// interface Locality {
-//   localityId: string;
-//   localityName: string;
-// }
-
-// const SuggestionSection = () => {
-//   const dispatch: AppDispatch = useDispatch();
-//   const { push } = useRouter();
-
-//   const apiKey = process.env.NEXT_PUBLIC_API_KEY || "";
-
-//   const handleSuggestionClick = (localityId: string, localityName: string) => {
-//     dispatch(selectLocality({ localityId, localityName }));
-//     dispatch(fetchWeatherData({ localityId, apiKey }));
-//     push(`/weather/${localityId}`);
-//   };
-
-//   const selectedSuggestions = [...localityData.localities]
-//     .sort(() => 0.5 - Math.random())
-//     .slice(0, 6);
-
-//   return (
-//     <section>
-//       <div className="grid grid-cols-3 gap-4">
-//         {selectedSuggestions.map((suggestion) => (
-//           <div key={suggestion.localityId} className="w-fit h-fit">
-//             <h1
-//               onClick={() =>
-//                 handleSuggestionClick(
-//                   suggestion.localityId,
-//                   suggestion.localityName
-//                 )
-//               }
-//               className="cursor-pointer hover:underline"
-//             >
-//               {suggestion.localityName}
-//             </h1>
-//           </div>
-//         ))}
-//       </div>
-//     </section>
-//   );
-// };
-
-// export default SuggestionSection;
-
 import { useRouter } from "next/router";
 import React, { useEffect, useState } from "react";
 import { useDispatch } from "react-redux";
@@ -86,8 +33,8 @@ const SuggestionSection: React.FC = () => {
   };
 
   return (
-    <section>
-      <div className="grid grid-cols-3 gap-4">
+    <section className="w-full md:w-3/4 lg:w-1/2">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-2 place-items-center">
         {selectedSuggestions.map(({ localityId, localityName }: Locality) => (
           <div
             key={localityId}

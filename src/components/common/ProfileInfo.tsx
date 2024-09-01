@@ -8,11 +8,13 @@ interface ProfileInfoProps {
 
 const ProfileInfo: React.FC<ProfileInfoProps> = () => {
   const [isDropdownVisible, setIsDropdownVisible] = useState(false);
+  const { push } = useRouter();
+  const name = "John Doe";
 
   const showDropdown = () => setIsDropdownVisible(true);
   const hideDropdown = () => setIsDropdownVisible(false);
-  const { push } = useRouter();
-  const name = "John Doe";
+
+  const toggleDropdown = () => setIsDropdownVisible((prev) => !prev);
 
   const handleLogOut = () => {
     push("/");
@@ -23,9 +25,13 @@ const ProfileInfo: React.FC<ProfileInfoProps> = () => {
       className="flex items-center gap-4 relative"
       onMouseEnter={showDropdown}
       onMouseLeave={hideDropdown}
+      onClick={toggleDropdown}
     >
-      <h1 className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-700 cursor-pointer">
-        {getInitials("John Doe")}
+      <h1
+        className="w-12 h-12 flex items-center justify-center rounded-full bg-gray-700 cursor-pointer"
+        onClick={toggleDropdown}
+      >
+        {getInitials(name)}
       </h1>
       {isDropdownVisible && (
         <div className="absolute right-0 top-full bg-white border rounded shadow-lg py-2 w-32">
