@@ -4,6 +4,7 @@ import { useDispatch } from "react-redux";
 import { AppDispatch } from "@/redux";
 import { fetchWeatherData, selectLocality } from "@/redux/searchSlice";
 import localityData from "@/locals/localityData.json";
+import { motion } from "framer-motion";
 
 interface Locality {
   localityId: string;
@@ -38,7 +39,12 @@ const SuggestionSection: React.FC = () => {
   };
 
   return (
-    <section className="w-full md:w-3/4 lg:w-1/2">
+    <motion.section
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+      className="w-full md:w-3/4 lg:w-1/2"
+    >
       <div className="grid grid-cols-2 md:grid-cols-3 gap-2 place-items-center">
         {selectedSuggestions.map(
           ({ localityId, localityName, cityName }: Locality) => (
@@ -54,7 +60,7 @@ const SuggestionSection: React.FC = () => {
           )
         )}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

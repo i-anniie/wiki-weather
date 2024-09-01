@@ -1,9 +1,15 @@
 import Link from "next/link";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Footer = () => {
   return (
-    <section className="main-container">
+    <motion.section
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="main-container"
+    >
       <div className="flex flex-col md:flex-row justify-between items-center gap-1 md:gap-0 py-4">
         <div className="flex flex-col md:flex-row items-center md:gap-2 ">
           <p className="text-sm">
@@ -37,7 +43,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </section>
+    </motion.section>
   );
 };
 

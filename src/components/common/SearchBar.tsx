@@ -9,6 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { useRouter } from "next/router";
 import { AppDispatch, RootState } from "@/redux";
 import { IoMdClose } from "react-icons/io";
+import { motion } from "framer-motion";
 
 const SearchBar: React.FC = () => {
   const dispatch: AppDispatch = useDispatch();
@@ -22,7 +23,11 @@ const SearchBar: React.FC = () => {
     dispatch(setQuery(e.target.value));
   };
 
-  const handleSuggestionClick = (localityId: string, localityName: string, cityName: string) => {
+  const handleSuggestionClick = (
+    localityId: string,
+    localityName: string,
+    cityName: string
+  ) => {
     dispatch(selectLocality({ localityId, localityName, cityName }));
     dispatch(fetchWeatherData({ localityId, apiKey }));
     push(`/weather/${localityId}`);
@@ -43,7 +48,12 @@ const SearchBar: React.FC = () => {
   };
 
   return (
-    <section className="relative w-full flex items-center justify-center text-black">
+    <motion.section
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.6, ease: "easeOut" }}
+      className="relative w-full flex items-center justify-center text-black"
+    >
       <input
         type="text"
         value={query}
@@ -94,7 +104,7 @@ const SearchBar: React.FC = () => {
           No suggestions available
         </div>
       ) : null}
-    </section>
+    </motion.section>
   );
 };
 
